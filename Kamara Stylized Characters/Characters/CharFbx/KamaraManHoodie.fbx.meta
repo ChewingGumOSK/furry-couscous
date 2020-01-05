@@ -1,0 +1,293 @@
+fileFormatVersion: 2
+guid: bce4b64fe77bc9745881f60e82332472
+timeCreated: 1497602057
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ' HairLongPonytailTight'
+    100002: Armature
+    100004: Bodies
+    100006: Chest
+    100008: Eyes
+    100010: HairLongBunCurly
+    100012: HairLongClassy
+    100014: HairLongPonytailCareless
+    100016: HairLongPonytailSerious
+    100018: HairLongWild
+    100020: Hairs
+    100022: HairShortBubbly
+    100024: HairShortLively
+    100026: HairShortMessy
+    100028: HairShortSleek
+    100030: HairShortSpiky
+    100032: HairShortSporty
+    100034: HairShortTrendy
+    100036: Jaw
+    100038: //RootNode
+    100040: KamaraManHoodie
+    100042: LeftBrowOne
+    100044: LeftBrowThree
+    100046: LeftBrowTwo
+    100048: LeftEye
+    100050: LeftEye 1
+    100052: LeftFoot
+    100054: LeftHand
+    100056: LeftIndexOne
+    100058: LeftIndexThree
+    100060: LeftIndexTwo
+    100062: LeftLowerArm
+    100064: LeftLowerLeg
+    100066: LeftLowerLid
+    100068: LeftMiddleOne
+    100070: LeftMiddleThree
+    100072: LeftMiddleTwo
+    100074: LeftMouth
+    100076: LeftPinkyOne
+    100078: LeftPinkyThree
+    100080: LeftPinkyTwo
+    100082: LeftRingOne
+    100084: LeftRingThree
+    100086: LeftRingTwo
+    100088: LeftThigh
+    100090: LeftThumbOne
+    100092: LeftThumbThree
+    100094: LeftThumbTwo
+    100096: LeftUpperArm
+    100098: LeftUpperLid
+    100100: Neck
+    100102: RightBrowOne
+    100104: RightBrowThree
+    100106: RightBrowTwo
+    100108: RightEye
+    100110: RightEye 1
+    100112: RightFoot
+    100114: RightHand
+    100116: RightIndexOne
+    100118: RightIndexThree
+    100120: RightIndexTwo
+    100122: RightLowerArm
+    100124: RightLowerLeg
+    100126: RightLowerLid
+    100128: RightMiddleOne
+    100130: RightMiddleThree
+    100132: RightMiddleTwo
+    100134: RightMouth
+    100136: RightPinkyOne
+    100138: RightPinkyThree
+    100140: RightPinkyTwo
+    100142: RightRingOne
+    100144: RightRingThree
+    100146: RightRingTwo
+    100148: RightThigh
+    100150: RightThumbOne
+    100152: RightThumbThree
+    100154: RightThumbTwo
+    100156: RightUpperArm
+    100158: RightUpperLid
+    100160: Stomach
+    100162: UpperLip
+    100164: HairLongPonytailTight
+    100166: LeftEyeBall
+    100168: RightEyeBall
+    400000: ' HairLongPonytailTight'
+    400002: Armature
+    400004: Bodies
+    400006: Chest
+    400008: Eyes
+    400010: HairLongBunCurly
+    400012: HairLongClassy
+    400014: HairLongPonytailCareless
+    400016: HairLongPonytailSerious
+    400018: HairLongWild
+    400020: Hairs
+    400022: HairShortBubbly
+    400024: HairShortLively
+    400026: HairShortMessy
+    400028: HairShortSleek
+    400030: HairShortSpiky
+    400032: HairShortSporty
+    400034: HairShortTrendy
+    400036: Jaw
+    400038: //RootNode
+    400040: KamaraManHoodie
+    400042: LeftBrowOne
+    400044: LeftBrowThree
+    400046: LeftBrowTwo
+    400048: LeftEye
+    400050: LeftEye 1
+    400052: LeftFoot
+    400054: LeftHand
+    400056: LeftIndexOne
+    400058: LeftIndexThree
+    400060: LeftIndexTwo
+    400062: LeftLowerArm
+    400064: LeftLowerLeg
+    400066: LeftLowerLid
+    400068: LeftMiddleOne
+    400070: LeftMiddleThree
+    400072: LeftMiddleTwo
+    400074: LeftMouth
+    400076: LeftPinkyOne
+    400078: LeftPinkyThree
+    400080: LeftPinkyTwo
+    400082: LeftRingOne
+    400084: LeftRingThree
+    400086: LeftRingTwo
+    400088: LeftThigh
+    400090: LeftThumbOne
+    400092: LeftThumbThree
+    400094: LeftThumbTwo
+    400096: LeftUpperArm
+    400098: LeftUpperLid
+    400100: Neck
+    400102: RightBrowOne
+    400104: RightBrowThree
+    400106: RightBrowTwo
+    400108: RightEye
+    400110: RightEye 1
+    400112: RightFoot
+    400114: RightHand
+    400116: RightIndexOne
+    400118: RightIndexThree
+    400120: RightIndexTwo
+    400122: RightLowerArm
+    400124: RightLowerLeg
+    400126: RightLowerLid
+    400128: RightMiddleOne
+    400130: RightMiddleThree
+    400132: RightMiddleTwo
+    400134: RightMouth
+    400136: RightPinkyOne
+    400138: RightPinkyThree
+    400140: RightPinkyTwo
+    400142: RightRingOne
+    400144: RightRingThree
+    400146: RightRingTwo
+    400148: RightThigh
+    400150: RightThumbOne
+    400152: RightThumbThree
+    400154: RightThumbTwo
+    400156: RightUpperArm
+    400158: RightUpperLid
+    400160: Stomach
+    400162: UpperLip
+    400164: HairLongPonytailTight
+    400166: LeftEyeBall
+    400168: RightEyeBall
+    2300000: Bodies
+    2300002: Eyes
+    2300004: Hairs
+    3300000: Bodies
+    3300002: Eyes
+    3300004: Hairs
+    4300000: Bodies
+    4300002: KamaraManHoodie
+    4300004: Eyes
+    4300006: LeftEye
+    4300008: RightEye
+    4300010: Hairs
+    4300012: HairShortTrendy
+    4300014: HairShortMessy
+    4300016: HairShortSpiky
+    4300018: ' HairLongPonytailTight'
+    4300020: HairShortLively
+    4300022: HairShortBubbly
+    4300024: HairLongClassy
+    4300026: HairShortSporty
+    4300028: HairLongPonytailCareless
+    4300030: HairLongBunCurly
+    4300032: HairLongWild
+    4300034: HairLongPonytailSerious
+    4300036: HairShortSleek
+    4300038: HairLongPonytailTight
+    4300040: LeftEyeBall
+    4300042: RightEyeBall
+    9500000: //RootNode
+    13700000: ' HairLongPonytailTight'
+    13700002: HairLongBunCurly
+    13700004: HairLongClassy
+    13700006: HairLongPonytailCareless
+    13700008: HairLongPonytailSerious
+    13700010: HairLongWild
+    13700012: HairShortBubbly
+    13700014: HairShortLively
+    13700016: HairShortMessy
+    13700018: HairShortSleek
+    13700020: HairShortSpiky
+    13700022: HairShortSporty
+    13700024: HairShortTrendy
+    13700026: KamaraManHoodie
+    13700028: LeftEye
+    13700030: RightEye
+    13700032: HairLongPonytailTight
+    13700034: LeftEyeBall
+    13700036: RightEyeBall
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
