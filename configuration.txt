@@ -1,0 +1,4 @@
+liste,étudiants
+Abdelmadjid Tebboune,jean valjean,Soukaina khallouf,abfongo saroukou mbou
+date,création
+l'utbm est créé en 1996

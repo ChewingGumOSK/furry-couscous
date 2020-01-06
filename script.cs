@@ -13,15 +13,16 @@ public class script : MonoBehaviour
 
     AudioSource audio;
     Animator animator;
-    string serverUrl = "http://localhost:59125/process?INPUT_TYPE=TEXT&AUDIO=WAVE_FILE&OUTPUT_TYPE=AUDIO&LOCALE=fr&INPUT_TEXT=%22",
+    //mary-tts :  "http://localhost:59125/process?INPUT_TYPE=TEXT&AUDIO=WAVE_FILE&OUTPUT_TYPE=AUDIO&LOCALE=fr&INPUT_TEXT=%22"
+    string serverUrl = "http://localhost:5000/?text=",
             configFile = @"C:\Users\Chine\Desktop\calculator\configuration.txt",
             aucuneReponseTrouvee = "Hmmmm, je ne connais pas la réponse à ceci";
-    private DictationRecognizer m_DictationRecognizer;//haylee_cb
+    private DictationRecognizer m_DictationRecognizer;
     string texte;
     void Start()
     {
         audio = gameObject.AddComponent<AudioSource>();
-        animator = GameObject.Find("KamaraManHoodieAIGeneric").GetComponent<Animator>();
+        animator = GameObject.Find("character").GetComponent<Animator>();
         m_DictationRecognizer = new DictationRecognizer();
         m_DictationRecognizer.InitialSilenceTimeoutSeconds = float.MaxValue;
         m_DictationRecognizer.DictationResult += (text, confidence) =>
@@ -71,9 +72,7 @@ public class script : MonoBehaviour
     }
     public void query(string text)
     {
-        //Debug.Log("audio play with text :"+"http://localhost:59125/process?INPUT_TYPE=TEXT&AUDIO=WAVE_FILE&OUTPUT_TYPE=AUDIO&LOCALE=fr&INPUT_TEXT=%22"+text+"%22");
-
-        WWW audioLoader = new WWW("http://localhost:5000/?text=" +
+        WWW audioLoader = new WWW(serverUrl +
             System.Web.HttpUtility.UrlEncode(findParole(text)));
         while (!audioLoader.isDone)
         { }
@@ -87,6 +86,6 @@ public class script : MonoBehaviour
     void FixedUpdate()
     {
         if(audio != null)
-            animator.SetBool("New Bool", audio.isPlaying);
+            animator.SetBool("talk", audio.isPlaying);
     }
 }
